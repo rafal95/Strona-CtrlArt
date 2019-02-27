@@ -1,0 +1,185 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	background-image: url('img/tlo_strony.jpg');
+	background-attachment: fixed;
+	background-color: #64646c;
+}
+
+#header
+{
+	position: absolute;
+	width:100%;
+	height:160px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+#container
+{
+	width: 1004px;
+	margin: 0 auto;
+}
+
+#banner
+{
+	position: relative;
+	margin-top: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 944px;
+	height: 150px;
+}
+
+#nav
+{
+	position: absolute;
+	bottom: 15px;
+	background-image: url('img/belka.gif');
+	background-color: gray;
+	height: 30px;
+	width: 944px;
+	border-left: solid 3px gray;
+	border-top: solid 2px gray;
+	box-shadow: -4px -4px 15px #000000;
+	margin-left: -2px;
+}
+
+#nav-item li
+			{
+				list-style-type: none;
+				float: left;
+				border-right: 1px solid #2E2121;
+			}
+			
+#nav-item li a
+			{
+				height: 30px;
+				float: left;
+				border-bottom: none;
+				padding: 0px 14px;
+				font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+				font-weight: bold;
+				color: 	black;
+				text-decoration: none;
+			}
+			
+#nav-item li a:target
+{
+	background-color: rgba(85, 168, 215, 1);
+}
+			
+#nav-item li a:hover
+			{
+				background-color: rgba(85, 168, 215, 1);
+				color: black;
+			}
+
+#nav-item li a.active
+			{
+				background-color: rgba(85, 168, 215, 1);
+				color: black;
+			}
+
+#content
+{
+	/*position: relative*/
+	
+	width: 944px;
+	min-height: 400px;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-top: -15px;
+}
+
+#contents
+{
+	/*position: absolute;
+	top: 30px;
+	left: 40px;*/
+	padding-top: 30px;
+	padding-left: 40px;
+	text-align:left;
+	width: 390px;
+	float:left;
+	color: white;
+}
+
+#contents ul li
+{
+	margin-left:30px;
+	font-size:15px;
+}
+
+#contents_bottom
+{
+	/*position:absolute;*/
+	clear:both;
+	padding-top:20px;
+	text-align:center;
+	width: 800px;
+	color: white;
+	padding-bottom:30px;
+}
+
+#footer
+{
+	position: relative;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 944px;
+	height: 120px;
+}
+
+#footer > p
+{
+	position:absolute;
+	bottom: 10px;
+	left: 60px;
+	color: gray;
+}
+
+p
+{
+	margin-top: 10px;
+}
+			
+span.link
+			{
+				display: inline-block;
+				margin-top: 8px;
+			}
+
+img.logo
+{
+	position: absolute;
+	border: 0;
+	left:60px;
+	top: 15px;				
+}
+
+img.ikona_banner
+{
+	position: absolute;
+	border: 0;
+	right: 70px;
+	top: 15px;				
+}
+img.ikona_content
+{
+	margin-top:60px;
+	border: 0;				
+}	
+
+img.logo_stopka
+{
+	position: absolute;
+	border: 0;
+	right:30px;
+	bottom: 15px;	
+	opacity:0.5;
+}	
